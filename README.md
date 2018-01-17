@@ -52,7 +52,6 @@ Label Description
 
 ### 1 - Single-Layer Neural Network
 
-```
 The input layer will consist
 of 28 .28=784 neurons, corresponding
 with the pixels in an instance image
@@ -60,7 +59,7 @@ so, every image is flattened in
 advance, getting a 1 x 784 vector
 representation of the originally
 2 Dimensional image.
-```
+
 I trained the network feeding by given training set as 784 dimensional gray-level image
 values. It is important to normalize image values (0 -255) to between 0 and 1. So I divided
 whole value by 255 to use numbers between 0 to 1.

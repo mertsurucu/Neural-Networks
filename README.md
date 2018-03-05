@@ -1,5 +1,5 @@
-# Neural-Networks
-Parameterized Neural Network Implementation
+`Fashion-MNIST` is a dataset of [Zalando](https://jobs.zalando.com/tech/)'s article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. It shares the same image size and structure of training and testing splits.
+
 ## Classification of Fashion Products using Neural Networks
 
 The MNIST dataset is (seemingly) the most abused dataset for beginning with image
@@ -16,39 +16,21 @@ sandals, shirts, sneakers, bags, and ankle boots). Each training and test exampl
 
 to one of the following labels:
 
-```
-Label Description
-```
-```
-0 T-shirt/top
-```
-```
-1 Trouser
-```
-```
-2 Pullover
-```
-```
-3 Dress
-```
-```
-4 Coat
-```
-```
-5 Sandal
-```
-```
-6 Shirt
-```
-```
-7 Sneaker
-```
-```
-8 Bag
-```
-```
-9 Ankle boot
-```
+### Labels
+Each training and test example is assigned to one of the following labels:
+
+| Label | Description |
+| --- | --- |
+| 0 | T-shirt/top |
+| 1 | Trouser |
+| 2 | Pullover |
+| 3 | Dress |
+| 4 | Coat |
+| 5 | Sandal |
+| 6 | Shirt |
+| 7 | Sneaker |
+| 8 | Bag |
+| 9 | Ankle boot |
 
 ### 1 - Single-Layer Neural Network
 

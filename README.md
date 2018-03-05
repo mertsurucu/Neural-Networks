@@ -1,6 +1,6 @@
 # Neural-Networks
 Parameterized Neural Network Implementation
-## PART II: Classification of Fashion Products using Neural Networks
+## Classification of Fashion Products using Neural Networks
 
 The MNIST dataset is (seemingly) the most abused dataset for beginning with image
 classification. It contains **28x28 grayscale images of handwritten digits** , each with an
